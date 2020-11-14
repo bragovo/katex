@@ -2,7 +2,9 @@
   "name": "katex",
   "private": true,
   "scripts": {
-    "start": "snowpack dev"
+    "start": "snowpack dev",
+    "lint:css": "yarn stylelint \"**/*.css\"",
+    "lint:standard": "yarn ts-standard"
   },
   "dependencies": {
     "react": "^17.0.1",
@@ -13,6 +15,10 @@
     "@types/react": "^16.9.56",
     "@types/react-dom": "^16.9.9",
     "snowpack": "^2.17.1",
+    "stylelint": "^13.7.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
     "ts-standard": "^9.0.0",
     "typescript": "^4.0.5"
   }

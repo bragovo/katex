@@ -1,4 +1,12 @@
 .root {
+  position: relative;
+  top: 0;
+  left: 0;
+
+  display: block;
+
   color: red;
   font-weight: bold;
+
+  border: 1px solid red;
 }
